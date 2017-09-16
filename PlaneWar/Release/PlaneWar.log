@@ -1,0 +1,38 @@
+﻿生成启动时间为 2014/7/24 22:36:02。
+     1>项目“C:\Users\lenovo\Desktop\PlaneWar\PlaneWar\PlaneWar.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\PlaneWar.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\lenovo\desktop\planewar\planewar\Elements.h(125): warning C4305: “+=”: 从“double”到“float”截断
+     1>main.cpp(18): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\lenovo\Desktop\PlaneWar\Release\PlaneWar.exe" /NOLOGO hge.lib hgehelp.lib /MANIFEST /ManifestFile:"Release\PlaneWar.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\lenovo\Desktop\PlaneWar\Release\PlaneWar.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\lenovo\Desktop\PlaneWar\Release\PlaneWar.lib" /MACHINE:X86 Release\bgmenu.obj
+         Release\Drawer.obj
+         Release\Logic.obj
+         Release\main.obj
+         Release\Map.obj
+         Release\Elements.obj
+         Release\Menu.obj
+         Release\menuitem.obj
+         Release\Scene.obj
+         Release\Sound.obj
+         Release\Tools.obj
+         Release\winmenu.obj
+         正在生成代码
+     1>c:\users\lenovo\desktop\planewar\planewar\scene.cpp(162): warning C4715: “Scene::get_bull_spr”: 不是所有的控件路径都返回值
+     1>c:\users\lenovo\desktop\planewar\planewar\scene.cpp(125): warning C4715: “Scene::get_enemy_ani”: 不是所有的控件路径都返回值
+     1>c:\users\lenovo\desktop\planewar\planewar\scene.cpp(22): warning C4715: “Scene::get_pl_ani”: 不是所有的控件路径都返回值
+         已完成代码的生成
+         PlaneWar.vcxproj -> C:\Users\lenovo\Desktop\PlaneWar\Release\PlaneWar.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\lenovo\Desktop\PlaneWar\Release\PlaneWar.exe;#1" /manifest Release\PlaneWar.exe.intermediate.manifest "C:\Program Files\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“Release\PlaneWar.unsuccessfulbuild”。
+         正在对“Release\PlaneWar.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\lenovo\Desktop\PlaneWar\PlaneWar\PlaneWar.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:07.29
